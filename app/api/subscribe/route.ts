@@ -22,7 +22,7 @@ export async function POST(req: NextRequest) {
       req.headers.get("x-real-ip") ||
       "unknown";
 
-    const result = addToWaitlist(
+    const result = await addToWaitlist(
       email.toLowerCase().trim(),
       name?.trim(),
       company?.trim(),
