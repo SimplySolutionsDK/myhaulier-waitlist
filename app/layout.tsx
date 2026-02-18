@@ -2,12 +2,13 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "MyHaulier — The Freight Marketplace of Tomorrow",
+  title: "MyHaulier — Built for Freight Forwarders",
   description:
-    "Connect carriers and freight forwarders on one intelligent platform. Streamline logistics, maximize loads, and grow your business. Join the waitlist.",
+    "A new platform connecting freight forwarders to the workforce they need. Join the waitlist.",
   openGraph: {
-    title: "MyHaulier — The Freight Marketplace of Tomorrow",
-    description: "Join the waitlist for the smarter way to move freight.",
+    title: "MyHaulier — Built for Freight Forwarders",
+    description:
+      "Join the waitlist. Something new is coming to freight forwarding.",
     type: "website",
   },
 };
