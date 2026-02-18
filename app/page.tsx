@@ -64,58 +64,6 @@ export default function Home() {
           padding: "40px 20px",
         }}
       >
-        {/* Logo / Nav */}
-        <div
-          style={{
-            position: "absolute",
-            top: "28px",
-            left: "50%",
-            transform: "translateX(-50%)",
-            display: "flex",
-            alignItems: "center",
-            gap: "10px",
-          }}
-        >
-          <div
-            style={{
-              width: "36px",
-              height: "36px",
-              background: "linear-gradient(135deg, #2563eb, #1d4ed8)",
-              borderRadius: "10px",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              color: "white",
-            }}
-          >
-            <svg
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <rect x="1" y="3" width="15" height="13" rx="1" />
-              <path d="M16 8h4l3 3v5h-7V8z" />
-              <circle cx="5.5" cy="18.5" r="2.5" />
-              <circle cx="18.5" cy="18.5" r="2.5" />
-            </svg>
-          </div>
-          <span
-            style={{
-              fontSize: "18px",
-              fontWeight: "700",
-              color: "white",
-              letterSpacing: "-0.02em",
-            }}
-          >
-            MyHaulier
-          </span>
-        </div>
-
         {/* Hero section */}
         <div
           style={{
